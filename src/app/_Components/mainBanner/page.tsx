@@ -17,7 +17,7 @@ export default function MainBanner() {
       </div>
 
 <div className="btn text-[#f9a004] font-bold ms-auto text-xl ">
-  <Link href="logoss" className="flex items-center "><FaLongArrowAltLeft  className="mt-3 me-2"/>
+  <Link href="https://wa.me/201552599703" className="flex items-center "><FaLongArrowAltLeft  className="mt-3 me-2"/>
 تعالي نرغي
 </Link>
 </div>

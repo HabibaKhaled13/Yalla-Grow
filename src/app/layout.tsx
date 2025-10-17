@@ -1,4 +1,4 @@
-// app/layout.tsx
+"use client"
 import "./globals.css";
 import Navbar from "./_Components/navbar/page";
 import WhatappBtn from "./_Components/whatsappBtn/page";

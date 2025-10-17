@@ -78,12 +78,12 @@ export default function Logoss() {
 
 </div>
 
-<div className="contact text-center mt-10 md:mt-20">
+ <div className="contact text-center mt-10 md:mt-20 text-white">
         <h2 className='text-4xl font-bold uppercase mb-2'>Start your project</h2>
-         <span className='text-[#FFA300] text-xl '>يلا نشتغل سوا؟</span>
-                <div className="md:w-[14%] mx-auto mt-5 w-full text-center rounded-full text-sm border border-neutral-300 py-2">
+         <span className='text-[#ffa300] text-xl '>يلا نشتغل سوا؟</span>
+                <div className="md:w-[14%] mx-auto mt-5 w-full text-center rounded-full  border border-neutral-300 py-2">
                     
-                    <Link href='#'>View All Services</Link>
+                    <Link href='https://wa.me/201552599703'>Let's Start</Link>
 
             </div>
             </div>

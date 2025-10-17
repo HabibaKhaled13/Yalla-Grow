@@ -22,14 +22,14 @@ export default function OfferForCourse() {
  <div className="after-sale">
     <span className='text-neutral-300 text-sm'>السعر الأصلي
 </span>
-    <h3 className='line-through text-neutral-200  text-2xl'>EGP50,000</h3>
+    <h3 className='line-through text-neutral-200 md:text-2xl text-xl'>EGP8,000</h3>
   </div>
   <FaArrowRight className='inline text-2xl mx-4' />
  
     <div className="before-sale">
     <span className='text-neutral-300 text-sm'>سعرك اليوم فقط
 </span>
-    <h3 className='text-4xl'>EGP10,000
+    <h3 className='md:text-4xl text-2xl'>EGP4,000
 </h3>
   </div>
 </div>
@@ -59,7 +59,7 @@ export default function OfferForCourse() {
                 </ul>
 </div>
 <div className="btn w-[90%] mx-auto">
-<Link href="" className=' w-full inline-block py-3 bg-[#F5CE60] text-white text-center text-sm shadow-lg rounded-lg my-6' >
+<Link href="" className=' w-full inline-block py-3 bg-[#f9a004] text-white text-center text-sm shadow-lg rounded-lg my-6' >
 احصل علي الحزمه الآن<FaArrowRight className='inline text-lg me-1' /> </Link>
 
 </div>

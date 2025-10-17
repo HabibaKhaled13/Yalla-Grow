@@ -10,7 +10,7 @@ import { FaArrowRight } from "react-icons/fa6";
 
 export default function MainHeader() {
   return (
-    <section className="w-full md:min-h-screen pt-14 text-white bg-[#1A2332]">
+    <section className="w-full md:min-h-screen pt-20 text-white bg-[#1A2332]">
       <div className="md:px-14 px-7 ">
         <div className="flex justify-between flex-wrap items-center h-auto  md:h-screen">
           <div className="text md:w-[50%] w-full">
@@ -33,7 +33,7 @@ export default function MainHeader() {
  <PiRocketLaunch /><HiArrowTrendingUp /><MdOutlineSignalCellularAlt /><GrAd />
             </div>
 
-           <Link href="" className=' px-5 inline-block py-3 bg-[#FFA300] text-white text-center text-sm shadow-lg rounded-lg my-6' >
+           <Link href="https://wa.me/201552599703" className=' px-5 inline-block py-3 bg-[#FFA300] text-white text-center text-sm shadow-lg rounded-lg my-6' >
 احصل علي النظام الآن<FaArrowRight className='inline text-lg me-1' /> </Link>
 
 

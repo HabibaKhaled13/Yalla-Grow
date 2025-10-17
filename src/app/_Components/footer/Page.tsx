@@ -29,15 +29,15 @@ export default function Footer() {
         <p className='text-stone-300 mb-4'>Yalla Grow isn’t just our name, it’s our mindset. Always shifting, always creating, always pushing forward.
 </p>
    <div className="social-media mt-4">
-<ul className='flex gap-x-2'><li><Link href="https://www.instagram.com/Yalla Growadvertising/"><FaInstagram className='bg-[#FFA300] text-amber-50 text-[45px] p-[10px] rounded-full transation-all duration-300 hover:bg-[#8795AC]' /></Link>
+<ul className='flex gap-x-2'><li><Link href="https://www.instagram.com/yallagrow.pro/"><FaInstagram className='bg-[#FFA300] text-amber-50 text-[45px] p-[10px] rounded-full transation-all duration-300 hover:bg-[#8795AC]' /></Link>
 </li>
-<li><Link href="https://www.instagram.com/Yalla Growadvertising/"><FaFacebook 
+<li><Link href="https://www.facebook.com/YallaGrow.pro"><FaFacebook 
     className='bg-[#FFA300] text-amber-50 text-[45px] p-[10px] rounded-full transation-all duration-300 hover:bg-[#8795AC]' /></Link>
 </li>
-<li><Link href="https://www.instagram.com/Yalla Growadvertising/"><FaXTwitter
+<li><Link href="#"><FaXTwitter
     className='bg-[#FFA300] text-amber-50 text-[45px] p-[10px] rounded-full transation-all duration-300 hover:bg-[#8795AC]' /></Link>
 </li>
-<li><Link href="https://www.instagram.com/Yalla Growadvertising/"><FaLinkedin className='bg-[#FFA300] text-amber-50 text-[45px] p-[10px] rounded-full transation-all duration-300 hover:bg-[#8795AC]' /></Link>
+<li><Link href="https://www.linkedin.com/company/yallagroweg/posts/?feedView=all"><FaLinkedin className='bg-[#FFA300] text-amber-50 text-[45px] p-[10px] rounded-full transation-all duration-300 hover:bg-[#8795AC]' /></Link>
 </li></ul>
    </div>
 

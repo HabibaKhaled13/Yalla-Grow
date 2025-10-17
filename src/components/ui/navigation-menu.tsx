@@ -1,10 +1,12 @@
+"use client"
 import * as React from "react"
+import { useEffect,useState } from "react"
 import * as NavigationMenuPrimitive from "@radix-ui/react-navigation-menu"
 import { cva } from "class-variance-authority"
 import { ChevronDownIcon } from "lucide-react"
 
 import { cn } from "@/lib/utils"
-
+ 
 function NavigationMenu({
   className,
   children,
@@ -13,13 +15,22 @@ function NavigationMenu({
 }: React.ComponentProps<typeof NavigationMenuPrimitive.Root> & {
   viewport?: boolean
 }) {
+  const [scroll, setScroll] = useState(false)
+
+  useEffect(() => {
+    const handleScroll = () => setScroll(window.scrollY >= 686)
+    window.addEventListener("scroll", handleScroll)
+    return () => window.removeEventListener("scroll", handleScroll)
+  }, [])
+
   return (
     <NavigationMenuPrimitive.Root
       data-slot="navigation-menu"
       data-viewport={viewport}
       className={cn(
-        "group/navigation-menu fixed  bg-black/10 px-12 py-3  left-0 w-full z-50 flex  flex-1 items-center justify-center",
-        className
+        "group/navigation-menu fixed  transition-all duration-100 ease-in-out rounded-full px-12 py-2 top-2  z-50 flex flex-1 items-center left-1/2 -translate-x-1/2 ",
+        className,
+        scroll ? "bg-black/90 w-full top-0 md:px-28 rounded-none" : "bg-black/10 w-[90%]"
       )}
       {...props}
     >
@@ -28,6 +39,7 @@ function NavigationMenu({
     </NavigationMenuPrimitive.Root>
   )
 }
+
 
 function NavigationMenuList({
   className,
@@ -59,7 +71,7 @@ function NavigationMenuItem({
 }
 
 const navigationMenuTriggerStyle = cva(
-  "group inline-flex h-9 w-max items-center justify-center rounded-md text-white  px-3  text-sm font-medium hover:text-[#f5ce60]  focus:text-[#f5ce60]  disabled:pointer-events-none disabled:opacity-50 data-[state=open]:hover:bg-white   outline-none transition-[color,box-shadow] focus-visible:ring-[3px] focus-visible:outline-1"
+  "group inline-flex h-9 w-max items-center justify-center rounded-md text-white  px-3  text-sm font-semibold hover:text-[#ffa300]  focus:text-[#ffa300]  disabled:pointer-events-none disabled:opacity-50   outline-none transition-[color,box-shadow] focus-visible:ring-[3px] focus-visible:outline-1"
 )
 
 function NavigationMenuTrigger({
@@ -129,7 +141,7 @@ function NavigationMenuLink({
     <NavigationMenuPrimitive.Link
       data-slot="navigation-menu-link"
       className={cn(
-        "data-[active=true]:focus:bg-accent data-[active=true]:hover:bg-white data-[active=true]:bg-accent/50 data-[active=true]:text-accent-foreground hover:bg-white hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground focus-visible:ring-ring/50 [&_svg:not([class*='text-'])]:text-muted-foreground flex flex-col gap-1 rounded-sm p-2 text-sm transition-all outline-none focus-visible:ring-[3px] focus-visible:outline-1 [&_svg:not([class*='size-'])]:size-4",
+        "   data-[active=true]:text-accent-foreground  hover:text-accent-foreground focus:text-accent-foreground focus-visible:ring-ring/50 [&_svg:not([class*='text-'])]:text-muted-foreground flex flex-col gap-1 rounded-sm p-2 text-sm transition-all outline-none focus-visible:ring-[3px] focus-visible:outline-1 [&_svg:not([class*='size-'])]:size-4",
         className
       )}
       {...props}

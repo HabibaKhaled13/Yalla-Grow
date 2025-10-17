@@ -1,17 +1,19 @@
 import Link from 'next/link'
 import React from 'react'
 import Logos from '../_Components/logos/page'
+import ClientsCount from '../_Components/clinetsCount/page'
+
 
 export default function Services() {
   return (
   <>
-     <section className="py-10 md:py-20">
+     <section className="py-20">
         <div className="mx-auto md:px-14 px-7 text-white ">
                 <div className="title flex justify-between flex-wrap  my-5 md:my-20 text-white items-start">
         <div className="md:w-1/6 w-full md:mb-0 mb-5 ">
        
         <h2 className='text-4xl font-bold uppercase mb-2'>Services</h2>
-         <span className='text-[#f5ce60] '>أنت تؤمر واحنا ننفذ</span>
+         <span className='text-[#FFA300] '>أنت تؤمر واحنا ننفذ</span>
             </div>
         
                  <div className="md:w-[70%] md:mb-0 mb-5 w-full text-neutral-300">
@@ -101,13 +103,16 @@ ptimization, and link building.
     </div>
 
 </div>
+
+    <ClientsCount/>
+
 <Logos/>
 <div className="contact text-center mt-10 md:mt-20">
         <h2 className='text-4xl font-bold uppercase mb-2'>Start your project</h2>
-         <span className='text-[#f5ce60] text-xl '>يلا نشتغل سوا؟</span>
-                <div className="md:w-[14%] mx-auto mt-5 w-full text-center rounded-full text-sm border border-neutral-300 py-2">
+         <span className='text-[#ffa300] text-xl '>يلا نشتغل سوا؟</span>
+                <div className="md:w-[14%] mx-auto mt-5 w-full text-center rounded-full  border border-neutral-300 py-2">
                     
-                    <Link href='#'>View All Services</Link>
+                    <Link href='https://wa.me/201552599703'>Let's Start</Link>
 
             </div>
             </div>

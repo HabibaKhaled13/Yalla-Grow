@@ -9,7 +9,7 @@ export default function ClientsCount() {
         <div className="mx-auto md:px-14 px-7 ">
           <div className=" flex justify-between flex-wrap md:gap-y-0 gap-y-6">
             <div className="md:w-[23%] w-full text-center">
-              <h2 className="md:text-[100px] text-7xl text-transparent [-webkit-text-stroke:2px_#f5ce60] [-webkit-text-fill-color:transparent] leading-none">
+              <h2 className="md:text-[100px] text-7xl text-transparent [-webkit-text-stroke:2px_#f9a004] [-webkit-text-fill-color:transparent] leading-none">
                 <CountUp
                   start={0}
                   end={300}
@@ -24,7 +24,7 @@ export default function ClientsCount() {
               <p className="text-white mt-4 text-xl font-semibold ">Projects</p>
             </div>
             <div className="md:w-[23%] w-full text-center">
-              <h2 className="md:text-[100px] text-7xl text-transparent [-webkit-text-stroke:2px_#f5ce60] [-webkit-text-fill-color:transparent] leading-none">
+              <h2 className="md:text-[100px] text-7xl text-transparent [-webkit-text-stroke:2px_#f9a004] [-webkit-text-fill-color:transparent] leading-none">
                 <CountUp
                   start={0}
                   end={42}
@@ -39,7 +39,7 @@ export default function ClientsCount() {
               <p className="text-white mt-4 text-xl font-semibold ">Human</p>
             </div>
             <div className="md:w-[23%] w-full text-center">
-              <h2 className="md:text-[100px] text-7xl text-transparent [-webkit-text-stroke:2px_#f5ce60] [-webkit-text-fill-color:transparent] leading-none">
+              <h2 className="md:text-[100px] text-7xl text-transparent [-webkit-text-stroke:2px_#f9a004] [-webkit-text-fill-color:transparent] leading-none">
                 <CountUp
                   start={0}
                   end={5}
@@ -54,7 +54,7 @@ export default function ClientsCount() {
               <p className="text-white mt-4 text-xl font-semibold ">Years</p>
             </div>
             <div className="md:w-[23%] w-full text-center">
-              <h2 className="md:text-[100px] text-7xl text-transparent [-webkit-text-stroke:2px_#f5ce60] [-webkit-text-fill-color:transparent] leading-none">
+              <h2 className="md:text-[100px] text-7xl text-transparent [-webkit-text-stroke:2px_#f9a004] [-webkit-text-fill-color:transparent] leading-none">
                 <CountUp
                   start={0}
                   end={15}

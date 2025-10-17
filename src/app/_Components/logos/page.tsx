@@ -7,7 +7,7 @@ export default function Logos() {
          <div className="mx-auto md:px-14 px-7 ">
         <div className="text text-center py-6">
           <h2 className='text-4xl font-bold uppercase text-white'>Our Clients</h2>
-          <p className='text-[#f5ce60] text-xl mt-3 mb-6'>خدنا الشرف نشتغل مع</p>
+          <p className='text-[#f9a004] text-xl mt-3 mb-6'>خدنا الشرف نشتغل مع</p>
         </div>
   <Marquee>
        

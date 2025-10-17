@@ -12,7 +12,7 @@ export default function Services() {
         <div className="md:w-1/6 w-full md:mb-0 mb-5 ">
        
         <h2 className='text-4xl font-bold uppercase mb-2'>Services</h2>
-         <span className='text-[#f5ce60] '>أنت تؤمر واحنا ننفذ</span>
+         <span className='text-[#ffa300] '>أنت تؤمر واحنا ننفذ</span>
             </div>
         
                  <div className="md:w-3/5 md:mb-0 mb-5 w-full text-neutral-300">
@@ -24,7 +24,7 @@ thinking brands boundaries</p>
         
                  <div className="md:w-[14%] md:mb-0 mb-5 w-full text-center rounded-full text-sm border border-neutral-300 py-2">
                     
-                    <Link href='#'>View All Services</Link>
+                    <Link href='/services'>View All Services</Link>
 
             </div>
 

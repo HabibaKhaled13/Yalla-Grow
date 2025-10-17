@@ -14,7 +14,7 @@ export default function AboutUsBreif() {
                <div className="md:w-[48%] w-full mt-7">
                    
         <h2 className='text-4xl font-bold uppercase mb-2 text-white'>About us</h2>
-         <span className='text-[#f5ce60] '>إحنا مين</span>
+         <span className='text-[#f9a004] '>إحنا مين</span>
          <div className="md:ms-12 md:mt-10 mt-7">
             <p className='text-neutral-300 mb-5 mt-5'>Yalla Grow isn’t just our name, it’s our mindset. Always shifting, always creating, always pushing forward.</p>
              <p className='text-neutral-300 mb-5 '>We’re a small, deliberate team that builds ideas into things people notice and remember. Not because we chase the loudest trends, but because we choose the right ones, the ones that fit your brand and actually Yalla Grow your business.
